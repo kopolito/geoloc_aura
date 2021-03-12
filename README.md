@@ -36,3 +36,18 @@ So far we’ve synchronized regular data. Now we’re going to turn to the reall
 ### Create a scratch org with the alias GeoAppScratch.
 
 `sfdx force:org:create -s -f config/project-scratch-def.json -a GeoAppScratch`
+
+## ignore Profiles changes
+
+add this to the `.forceignore` file
+
+`# Profiles **/profiles`
+
+because AccountLocator Tab visibility was set for all Profiles
+When we created the Account Locator tab and assigned its visibility to all the profiles,
+the automatic change-tracking in the scratch org noted that the profiles have changed.#
+Naturally, the next time you pull metadata from the scratch org to sync with your local project,
+the CLI will want to pull down profile metadata.
+Since the profiles are not pertinent to your geolocation app
+and not something to track in your source control repository for this project,
+we need to tell Salesforce CLI to ignore the profile changes.
