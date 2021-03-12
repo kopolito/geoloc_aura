@@ -32,3 +32,7 @@ You now have sample data that you can import in the future with this command. Bu
 `sfdx force:data:tree:import --sobjecttreefiles data/Account.json`
 
 So far we’ve synchronized regular data. Now we’re going to turn to the really fun part—the code.
+
+### Create a scratch org with the alias GeoAppScratch.
+
+`sfdx force:org:create -s -f config/project-scratch-def.json -a GeoAppScratch`

@@ -5,6 +5,45 @@
                 "type": "Account",
                 "referenceId": "AccountRef1"
             },
+            "Name": "Hyatt",
+            "BillingStreet": "5 Embarcadero Center",
+            "BillingCity": "San Francisco",
+            "BillingState": "CA",
+            "BillingPostalCode": "94111",
+            "Phone": "(415) 788-1234",
+            "Website": "www.hyatt.com"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Hilton Union Square",
+            "BillingStreet": "333 O Farrell St",
+            "BillingCity": "San Francisco",
+            "BillingState": "CA",
+            "BillingPostalCode": "94102",
+            "Phone": "(415) 771-1400",
+            "Website": "www.hilton.com"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Marriott Marquis",
+            "BillingStreet": "780 Mission St",
+            "BillingCity": "San Francisco",
+            "BillingState": "CA",
+            "BillingPostalCode": "94103",
+            "Phone": "(415) 896-1600",
+            "Website": "www.marriott.com"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
             "Name": "Edge Communicationss",
             "BillingStreet": "312 Constitution Place\nAustin, TX 78767\nUSA",
             "BillingCity": "Austin",
@@ -15,7 +54,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef2"
+                "referenceId": "AccountRef5"
             },
             "Name": "Burlington Textiles Corp of America",
             "BillingStreet": "525 S. Lexington Ave",
@@ -28,7 +67,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef3"
+                "referenceId": "AccountRef6"
             },
             "Name": "Dickenson plc",
             "BillingStreet": "1301 Hoch Drive",
@@ -41,7 +80,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef4"
+                "referenceId": "AccountRef7"
             },
             "Name": "Grand Hotels & Resorts Ltd",
             "BillingStreet": "2334 N. Michigan Avenue, Suite 1500\nChicago, IL 60601, USA",
@@ -53,7 +92,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef5"
+                "referenceId": "AccountRef8"
             },
             "Name": "United Oil & Gas Corp.",
             "BillingStreet": "1301 Avenue of the Americas \nNew York, NY 10019\nUSA",
@@ -65,7 +104,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef6"
+                "referenceId": "AccountRef9"
             },
             "Name": "Express Logistics and Transport",
             "BillingStreet": "620 SW 5th Avenue Suite 400\nPortland, Oregon 97204\nUnited States",
@@ -77,7 +116,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef7"
+                "referenceId": "AccountRef10"
             },
             "Name": "University of Arizona",
             "BillingStreet": "888 N Euclid \nHallis Center, Room 501\nTucson, AZ 85721\nUnited States",
@@ -89,7 +128,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef8"
+                "referenceId": "AccountRef11"
             },
             "Name": "United Oil & Gas, Singapore",
             "BillingStreet": "9 Tagore Lane\nSingapore, Singapore 787472\nSingapore",
@@ -101,7 +140,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef9"
+                "referenceId": "AccountRef12"
             },
             "Name": "GenePoint",
             "BillingStreet": "345 Shoreline Park\nMountain View, CA 94043\nUSA",
@@ -113,7 +152,7 @@
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef10"
+                "referenceId": "AccountRef13"
             },
             "Name": "sForce",
             "BillingStreet": "The Landmark @ One Market",
